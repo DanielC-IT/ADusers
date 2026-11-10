@@ -64,7 +64,7 @@ Use PowerShell ISE to run the script that automatically generates multiple Activ
 
 [Download or copy the raw file](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) of the PowerShell user creation script into PowerShell ISE.
 
-The script generates random first and last names, creates usernames, and automatically provisions user accounts within the designated _EMPLOYEES Organizational Unit.
+The script generates random first and last names, creates usernames, and automatically provisions user accounts within the designated **_EMPLOYEES** Organizational Unit.
 
 Press the ▶️ button above to start the script
 
@@ -93,22 +93,23 @@ This confirms that the PowerShell script successfully created the accounts and p
 
 <img width="644" height="415" alt="9" src="https://github.com/user-attachments/assets/12df62ea-cce6-4278-98cc-5af27e824bf4" />
 
+<img width="754" height="527" alt="10" src="https://github.com/user-attachments/assets/4864fca1-e49a-4495-a79e-dc10c2fd9115" />
+
 ### Step 5: Test Logging Into Client-1 With a Newly Created User
 
 To verify that the newly created accounts can authenticate on a domain-joined computer, select one of the users created by the PowerShell script.
 
-For this example, I used the account:mydomain\bava.joso
+For this example, I used the account:**mydomain\bava.joso**
+
+with the password being: **Password1**
 
 Enter the temporary password configured during the PowerShell script execution.
 
 The user should now be able to authenticate and log into Client-1, provided the computer has domain connectivity and the account has the necessary logon permissions.
 
-If prompted, complete the password change process.
-
 Successfully logging in confirms that the account was created correctly and can authenticate against the Active Directory domain.
 
 <img width="457" height="581" alt="11" src="https://github.com/user-attachments/assets/a7352e49-6d3b-4820-bf92-93ef9c976e92" />
-
 
 ## Active Directory User Creation Completed!
 
